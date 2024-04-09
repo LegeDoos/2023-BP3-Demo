@@ -10,6 +10,11 @@ namespace DemoGithub
     {
         private string connectionstring = string.Empty;
 
+        internal void CreateCustomer(Customer customer)
+        {
+            throw new NotImplementedException();
+        }
+
         internal void DeleteCustomer(int id)
         {
             throw new NotImplementedException();
