@@ -18,5 +18,11 @@ namespace DemoGithub
             DAL dal = new DAL();
             dal.CreateCustomer(this);
         }
+
+        public void DeleteData()
+        {
+            DAL dal = new DAL();
+            dal.DeleteCustomer(Id);
+        }
     }
 }

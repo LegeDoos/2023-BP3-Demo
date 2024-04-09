@@ -14,5 +14,10 @@ namespace DemoGithub
         {
             throw new NotImplementedException();
         }
+
+        internal void DeleteCustomer(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
