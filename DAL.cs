@@ -9,5 +9,10 @@ namespace DemoGithub
     public class DAL
     {
         private string connectionstring = string.Empty;
+
+        internal void DeleteCustomer(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

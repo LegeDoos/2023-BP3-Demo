@@ -10,5 +10,11 @@ namespace DemoGithub
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public void DeleteData()
+        {
+            DAL dal = new DAL();
+            dal.DeleteCustomer(Id);
+        }
     }
 }
